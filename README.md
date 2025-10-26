@@ -51,5 +51,5 @@
 ### Installation
 1. Clone the repo  
    ```bash
-   git clone https://github.com/yourusername/live-healthy.git
+   git clone https://github.com/YochevedRot/live-healthy.git
    cd live-healthy
