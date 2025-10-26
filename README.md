@@ -69,6 +69,10 @@ cd ../live_healthy-server
 dotnet restore
 dotnet build
 ```
+Create a .env file inside the server directory and add your GPT key:
+```bash
+OPENAI_API_KEY=your_api_key_here
+```
 
 ### 4) Configure and initialize the database
 If migrations already exist (the Migrations folder is present):
@@ -91,5 +95,9 @@ Ensure your appsettings.json contains a valid connection string:
 }
 ```
 
+### 5) Run the server
+```bash
+dotnet run
+```
 
 
