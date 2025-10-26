@@ -51,12 +51,16 @@
 ---
 
 ### 1) Clone the repository
-```bash
 git clone https://github.com/yourusername/live-healthy.git
 cd live-healthy
 
 ### 2) Install client dependencies and run
-```bash
 cd Live_healthy-client
 npm install
 npm run dev
+
+### 3) Setup and run the server
+cd ../live_healthy-server
+dotnet restore
+dotnet build
+
