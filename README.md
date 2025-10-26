@@ -43,12 +43,7 @@
 
 ## Getting Started
 
-### Prerequisites
-- Node.js v18+
-- .NET 8 SDK
-- SQL Server (LocalDB / Express / Remote)
-
----
+### Installation
 
 #### 1️⃣ Clone the repository
 ```bash
