@@ -1,11 +1,5 @@
 <a id="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
-
 <br />
 <div align="center">
   <a href="https://github.com/yourusername/live-healthy">
@@ -28,14 +22,13 @@
 
 ## About The Project
 
-**Live Healthy** is a full-stack nutrition coaching system focused on personalization and simplicity.  
-It combines a React client and a .NET Core Web API server with GPT-powered guidance.
+**Live Healthy** is a full-stack nutrition coaching system focused on personalization and a clean user experience.
 
 ### Features
 - 🥗 Free-text recipe search  
-- ⭐ Favorites system  
+- ⭐ Favorites management  
 - 💬 AI-based personal nutrition trainer  
-- 🧩 Modern full-stack structure (React + .NET Core + SQL Server)
+- 🧩 Modern full-stack architecture (React + .NET Core + SQL Server)
 
 ---
 
