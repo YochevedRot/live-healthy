@@ -1,23 +1,11 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+// create-files.js
+const fs = require("fs");
+
+// README content
+const readme = `
+<!-- Improved compatibility of back to top link -->
 <a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -25,9 +13,6 @@
 [![License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/yourusername/live-healthy">
@@ -38,11 +23,10 @@
 
   <p align="center">
     A personalized nutrition coaching web application.<br/>
-    Search recipes by free text, save favorites, and interact with an AI-based personal trainer tailored to your chosen style.
+    Search recipes by keywords, save favorites, and interact with an AI-based nutrition coach tailored to your chosen personality style.
     <br />
     <a href="#about-the-project"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
+    <br /><br />
     <a href="#screenshots">View Screenshots</a>
     &middot;
     <a href="https://github.com/yourusername/live-healthy/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
@@ -51,81 +35,105 @@
   </p>
 </div>
 
+---
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#environment-variables">Environment Variables</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#screenshots">Screenshots</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](#screenshots)
+**Live Healthy** is a full-stack nutrition coaching system built for personalization and user engagement.
 
-**Live Healthy** is a full-stack nutrition coaching system focused on personalization and a clean user experience.
-
-Core capabilities:
-* 🔎 **Free-text recipe search** with keywords
-* ⭐ **Favorites** to save and manage recipes
-* 🧠 **AI Personal Trainer** (GPT) that adapts to a selected coaching style/personality
-* 🗂️ Clear modular client/server architecture
-
-Use the `BLANK_README.md` of your choice to start new modules consistently.
+**Features**
+- 🔍 Free-text recipe search
+- ⭐ Favorites management
+- 🧠 AI-based personal nutrition trainer
+- 🧩 Clean modular architecture (React + .NET Core + SQL)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
 
+## Built With
 
-### Built With
-
-This project uses a straightforward, production-ready stack:
-
-* **Client:** React, TypeScript, Axios (state: Zustand or equivalent)
-* **Server:** .NET Core Web API (C#), Entity Framework Core
+* **Client:** React, TypeScript, Axios
+* **Server:** .NET Core Web API, Entity Framework Core
 * **Database:** SQL Server
-* **AI:** OpenAI GPT integration (key via environment variables)
+* **AI Integration:** OpenAI GPT API
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
-
-
-<!-- GETTING STARTED -->
 ## Getting Started
-
-Follow the steps below to run the project locally.
 
 ### Prerequisites
 
-* Node.js (v18+)
+* Node.js v18+
 * .NET 8 SDK
-* SQL Server (local or remote)
+* SQL Server
 
-Optional:
-```sh
-npm install npm@latest -g
+### Installation
+
+1. Clone the repo  
+   \`git clone https://github.com/yourusername/live-healthy.git\`
+
+2. Install dependencies (Client)  
+   \`cd client && npm install && npm run dev\`
+
+3. Run the Server  
+   \`cd ../server && dotnet restore && dotnet run\`
+
+4. Add environment variables (.env):
+   \`\`\`
+   OPENAI_API_KEY=your_api_key_here
+   \`\`\`
+
+---
+
+## Screenshots
+
+![Login](images/login.jpg)
+![Calorie Search](images/calorie-search.jpg)
+![Recipes](images/recipes.jpg)
+
+---
+
+## License
+
+Distributed under a **Private License**.  
+Copying, reproduction, or reuse of this code without explicit permission is strictly prohibited.  
+See \`LICENSE\` for details.
+
+---
+
+## Contact
+
+Project Repository: [Live Healthy](https://github.com/yourusername/live-healthy)
+
+---
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/yourusername/live-healthy.svg?style=for-the-badge
+[contributors-url]: https://github.com/yourusername/live-healthy/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/yourusername/live-healthy.svg?style=for-the-badge
+[forks-url]: https://github.com/yourusername/live-healthy/network/members
+[stars-shield]: https://img.shields.io/github/stars/yourusername/live-healthy.svg?style=for-the-badge
+[stars-url]: https://github.com/yourusername/live-healthy/stargazers
+[issues-shield]: https://img.shields.io/github/issues/yourusername/live-healthy.svg?style=for-the-badge
+[issues-url]: https://github.com/yourusername/live-healthy/issues
+[license-shield]: https://img.shields.io/badge/license-Private-red.svg?style=for-the-badge
+[license-url]: LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/yourprofile
+`;
+
+// LICENSE content
+const license = `
+Copyright © 2025 Live Healthy.
+
+All rights reserved.
+
+This project is for personal portfolio and demonstration purposes only.
+Unauthorized copying, distribution, modification, or use of any part of this codebase,
+in whole or in part, without explicit written permission from the author is strictly prohibited.
+`;
+
+fs.writeFileSync("README.md", readme.trim());
+fs.writeFileSync("LICENSE", license.trim());
+console.log("✅ README.md and LICENSE created successfully!");
