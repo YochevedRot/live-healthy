@@ -43,7 +43,7 @@
 
 ## Getting Started
 
-### Installation
+## Installation
 
 #### 1️⃣ Clone the repository
 ```bash
