@@ -26,7 +26,7 @@
 
 ### Features
 - 🥗 Free-text recipe search  
-- ⭐ Favorites management  
+- ⭐ Favorites system  
 - 💬 AI-based personal nutrition trainer  
 - 🧩 Modern full-stack architecture (React + .NET Core + SQL Server)
 
@@ -46,10 +46,11 @@
 ### Prerequisites
 - Node.js v18+
 - .NET 8 SDK
-- SQL Server
+- SQL Server (LocalDB/Express/Remote)
 
-### Installation
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/YochevedRot/live-healthy.git
-   cd live-healthy
+---
+
+### 1) Clone the repository
+```bash
+git clone https://github.com/yourusername/live-healthy.git
+cd live-healthy
