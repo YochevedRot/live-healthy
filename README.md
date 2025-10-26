@@ -56,10 +56,3 @@ git clone https://github.com/yourusername/live-healthy.git
 cd live-healthy
 
 
-### 2) Install client dependencies and run
-```bash
-cd Live_healthy-client
-npm install
-npm run dev
-
-
