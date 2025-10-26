@@ -70,3 +70,27 @@ dotnet restore
 dotnet build
 ```
 
+### 4) Configure and initialize the database
+If migrations already exist (the Migrations folder is present):
+
+```bash
+dotnet tool install --global dotnet-ef  # if not already installed
+dotnet ef database update
+```
+If there are no migrations yet:
+
+```bash
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+```
+
+Ensure your appsettings.json contains a valid connection string:
+
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\\\mssqllocaldb;Database=LiveHealthyDb;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}
+
+
+
