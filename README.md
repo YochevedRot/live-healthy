@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/logo.jpg" alt="Logo" width="80" height="80"/>
+  <img src="images/toolbar.jpg" alt="Toolbar Preview" width="100%" />
 </p>
 
 <h1 align="center">Live Healthy</h1>
@@ -11,6 +11,8 @@
   <a href="https://github.com/YochevedRot/live-healthy/tree/main/images">View Screenshots</a>
 </p>
 
+
+</p>
 
 ---
 
@@ -41,6 +43,7 @@
 |--------|----------------|------------|
 | ![Home Page](images/homepage.jpg) | ![calories](images/calorie-search.jpg) | ![Favorites Recipes](images/recipes.jpg) |
 
+---
 
 ## Getting Started
 
@@ -63,7 +66,7 @@ cd ../live_healthy-server
 dotnet restore
 dotnet build
 ```
-Create a your GPT key and store it in Enviroment Variables:
+Create your GPT API key and store it in environment variables:
 ```bash
 OPENAI_API_KEY=your_api_key_here
 ```
@@ -97,6 +100,8 @@ Ensure your appsettings.json contains a valid connection string:
 dotnet run
 ```
 
+---
+
 ##  Usage
 1. Open the client at [http://localhost:5173](http://localhost:5173)
 2. Sign up or log in to your account.
@@ -104,6 +109,14 @@ dotnet run
 4. Save your favorite recipes and interact with your AI nutrition coach.
 5. Manage your diet plan and explore suggestions from GPT.
 
-##  License
-This project is private and may not be copied or redistributed without permission.
+---
+
+## 🔒 License
+This project is private and may not be copied, modified, or redistributed without explicit permission from the author.
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/YochevedRot">Yocheved Rot</a>
+</p>
 
