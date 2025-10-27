@@ -51,14 +51,14 @@ git clone https://github.com/yourusername/live-healthy.git
 cd live-healthy
 ```
 
- 2) Install client dependencies and run
+#### 2️⃣ Install client dependencies and run
 ```bash
 cd Live_healthy-client
 npm install
 npm run dev
 ```
 
- 3) Setup and run the server
+ #### 3️⃣ Setup and run the server
 ```bash
 cd ../live_healthy-server
 dotnet restore
@@ -69,7 +69,7 @@ Create a .env file inside the server directory and add your GPT key:
 OPENAI_API_KEY=your_api_key_here
 ```
 
- 4) Configure and initialize the database
+ #### 4️⃣ Configure and initialize the database
 If migrations already exist (the Migrations folder is present):
 ```bash
 dotnet tool install --global dotnet-ef  # if not already installed
@@ -90,7 +90,7 @@ Ensure your appsettings.json contains a valid connection string:
 }
 ```
 
- 5) Run the server
+#### 5️⃣ Run the server
 ```bash
 dotnet run
 ```
