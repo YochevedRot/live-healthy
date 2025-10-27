@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="images/toolbar.jpg" alt="Toolbar Preview" width="100%" />
+  <img src="images/toolbar.jpg" alt="Toolbar Preview" width="100%" height="120" style="object-fit:cover;"/>
 </p>
 
-<h1 align="center">Live Healthy</h1>
+<h1 align="center">🌿 Live Healthy</h1>
 
 <p align="center">
   A personalized nutrition coaching web application.<br/>
@@ -11,8 +11,6 @@
   <a href="https://github.com/YochevedRot/live-healthy/tree/main/images">View Screenshots</a>
 </p>
 
-
-</p>
 
 ---
 
