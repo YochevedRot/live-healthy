@@ -7,8 +7,6 @@
 <p align="center">
   A personalized nutrition coaching web application.<br/>
   Search recipes by keywords, save favorites, and interact with an AI-based nutrition coach tailored to your chosen style.<br/>
-  <a href="#about-the-project"><strong>Explore the docs »</strong></a> ·
-  <a href="https://github.com/YochevedRot/live-healthy/tree/main/images">View Screenshots</a>
 </p>
 
 
@@ -40,6 +38,7 @@
 | Home Page | Search Calorie | Recipes |
 |--------|----------------|------------|
 | ![Home Page](images/homepage.jpg) | ![calories](images/calorie-search.jpg) | ![Favorites Recipes](images/recipes.jpg) |
+  <a href="https://github.com/YochevedRot/live-healthy/tree/main/images">More Screenshots</a>
 
 ---
 
