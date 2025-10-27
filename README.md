@@ -34,7 +34,7 @@
 
 ## Built With
 
-- **Client:** React, TypeScript, Axios  
+- **Client:** React
 - **Server:** .NET Core Web API (C#), Entity Framework Core  
 - **Database:** SQL Server  
 - **AI:** OpenAI GPT API
@@ -64,7 +64,7 @@ cd ../live_healthy-server
 dotnet restore
 dotnet build
 ```
-Create a .env file inside the server directory and add your GPT key:
+Create a your GPT key and store it in Enviroment Variables:
 ```bash
 OPENAI_API_KEY=your_api_key_here
 ```
@@ -72,7 +72,10 @@ OPENAI_API_KEY=your_api_key_here
  #### 4️⃣ Configure and initialize the database
 If migrations already exist (the Migrations folder is present):
 ```bash
-dotnet tool install --global dotnet-ef  # if not already installed
+dotnet tool install --global dotnet-ef
+```
+if not already installed
+```bash
 dotnet ef database update
 ```
 If there are no migrations yet:
