@@ -37,9 +37,9 @@
 
 ## 🖼️ Screenshots
 
-| Login | Search Recipes | Favorites |
+| Login | Search Calorie | Recipes |
 |--------|----------------|------------|
-| ![Login](images/login.jpg) | ![Search](images/calorie-search.jpg) | ![Favorites](images/recipes.jpg) |
+| ![Login](images/login.jpg) | ![calorie](images/calorie-search.jpg) | ![Favorites Recipes](images/recipes.jpg) |
 
 
 ## Getting Started
