@@ -42,7 +42,7 @@
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 #### 1️⃣ Clone the repository
 ```bash
@@ -99,7 +99,7 @@ dotnet run
 
 ---
 
-##  Usage
+## 🧭 Usage
 1. Open the client at [http://localhost:5173](http://localhost:5173)
 2. Sign up or log in to your account.
 3. Search for recipes by typing any keyword.
