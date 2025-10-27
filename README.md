@@ -14,7 +14,7 @@
     <br /><br />
     <a href="#about-the-project"><strong>Explore the docs »</strong></a>
     &middot;
-    <a href="#screenshots">View Screenshots</a>
+<a href="https://github.com/YochevedRot/live-healthy/tree/main/images">View Screenshots</a>
   </p>
 </div>
 
