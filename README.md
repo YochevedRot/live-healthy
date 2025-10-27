@@ -1,22 +1,16 @@
-<a id="readme-top"></a>
+<p align="center">
+  <img src="images/logo.jpg" alt="Logo" width="80" height="80"/>
+</p>
 
-<br />
-<div align="center">
-  <a href="https://github.com/yourusername/live-healthy">
-    <img src="images/logo.jpg" alt="Logo" width="80" height="80">
-  </a>
+<h1 align="center">Live Healthy</h1>
 
-  <h3 align="center">Live Healthy</h3>
+<p align="center">
+  A personalized nutrition coaching web application.<br/>
+  Search recipes by keywords, save favorites, and interact with an AI-based nutrition coach tailored to your chosen style.<br/>
+  <a href="#about-the-project"><strong>Explore the docs »</strong></a> ·
+  <a href="https://github.com/YochevedRot/live-healthy/tree/main/images">View Screenshots</a>
+</p>
 
-  <p align="center">
-    A personalized nutrition coaching web application.<br/>
-    Search recipes by keywords, save favorites, and interact with an AI-based nutrition coach tailored to your chosen style.
-    <br /><br />
-    <a href="#about-the-project"><strong>Explore the docs »</strong></a>
-    &middot;
-<a href="https://github.com/YochevedRot/live-healthy/tree/main/images">View Screenshots</a>
-  </p>
-</div>
 
 ---
 
@@ -32,18 +26,23 @@
 
 ---
 
-## Built With
+## 🧩 Built With
 
-- **Client:** React
-- **Server:** .NET Core Web API (C#), Entity Framework Core  
-- **Database:** SQL Server  
-- **AI:** OpenAI GPT API
+- **Frontend:** ⚛️ React (Vite)
+- **Backend:** 🧱 .NET 8 Web API (C#) + Entity Framework Core  
+- **Database:** 🗄️ SQL Server  
+- **AI Integration:** 🤖 OpenAI GPT API
 
 ---
 
-## Getting Started
+## 🖼️ Screenshots
 
-## Installation
+| Login | Search Recipes | Favorites |
+|--------|----------------|------------|
+| ![Login](images/login.jpg) | ![Search](images/calorie-search.jpg) | ![Favorites](images/recipes.jpg) |
+
+
+## Getting Started
 
 #### 1️⃣ Clone the repository
 ```bash
@@ -98,4 +97,13 @@ Ensure your appsettings.json contains a valid connection string:
 dotnet run
 ```
 
+##  Usage
+1. Open the client at [http://localhost:5173](http://localhost:5173)
+2. Sign up or log in to your account.
+3. Search for recipes by typing any keyword.
+4. Save your favorite recipes and interact with your AI nutrition coach.
+5. Manage your diet plan and explore suggestions from GPT.
+
+##  License
+This project is private and may not be copied or redistributed without permission.
 
